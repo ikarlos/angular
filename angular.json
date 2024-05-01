@@ -60,6 +60,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          
           "configurations": {
             "production": {
               "buildTarget": "my-angular-app:build:production"
@@ -96,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9c8bc83b-dc33-4ed6-ad40-0f83138ca61c"
   }
 }
